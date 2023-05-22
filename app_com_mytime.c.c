@@ -11,7 +11,7 @@ int main() {
     FloatVector_append(vec, 1.0);
     FloatVector_print(vec);
     timer t2 = tac();
-    printf("Tempo de processamento: %f ms\n", comptime(t1, t2));
+    printf("processing time: %f ms\n", comptime(t1, t2));
 
     FloatVector_destroy(&vec);
 
